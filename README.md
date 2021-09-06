@@ -7,9 +7,9 @@ Here i solved different data structure and algorithm related problems.There is a
 
 | OJ | Username | Solve Count |
 | -- | -------- | ----------- |
-| GeekforGeek | [poka](https://auth.geeksforgeeks.org/user/poka/profile) | 15 |
-| leetcode | [PULOK_AHMED](https://leetcode.com/PULOK_AHMED/) | 6 |
+| GeekforGeek | [poka](https://auth.geeksforgeeks.org/user/poka/profile) | 12 |
+| leetcode | [PULOK_AHMED](https://leetcode.com/PULOK_AHMED/) | 1 |
 |
-| Total |21 |  |
+| Total |13 |  |
 
 Last Updated: 6 sept, 2021
