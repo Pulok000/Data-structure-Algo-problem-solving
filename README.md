@@ -1,8 +1,8 @@
 # Data-structure-Algo-problem-solvings
-This repository contains solution of different data structure and algorithm related problems. There is an excel file which contains list of problems,link to the problems, category of the problems,methods  and approaches taken to solved the problems etc.
+This repository contains solution of different data structure and algorithm related problems. There is an excel file which contains list of problems,link to the problems, category of the problems,methods  and approaches taken to solved the problems etc.  
 ![image](https://user-images.githubusercontent.com/30721770/132205920-2c8a7da0-c4c4-46c8-b066-5c3c74a18e58.png)
 
-
+  
 # ProblemSolvingStats
 
 
