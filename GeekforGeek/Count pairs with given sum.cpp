@@ -9,22 +9,29 @@ using namespace std;
 
 class Solution{   
 public:
+
+
     int getPairsCount(int arr[], int n, int k) {
         // code here
         //const
-        int hash_sz=1e6+1001;
 
-        int hash[hash_sz];
+        //Approach :01
+
+        int limit=1e6;
+        
+        int hash_sz=1e6+1005;
+
+        vector<int> hash(hash_sz);
         int ct=0,temp;
 
         for(int i=0;i<n;i++){
 
             if(arr[i]==k){
-                ct++;
+                //ct++;
             }
             else{
 
-            if((k-arr[i])>=0){
+            if((k-arr[i])>=0 && (k-arr[i]<limit)){
                // cout<<"hash["<<k-arr[i]<<"]: "<<hash[k-arr[i]]<<endl;
                 // if((hash[k-arr[i]])>0){
                     temp=(k-arr[i]);
@@ -61,3 +68,4 @@ int main() {
     
     return 0;
 }  // } Driver Code Ends
+
