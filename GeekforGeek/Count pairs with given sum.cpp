@@ -13,39 +13,26 @@ public:
 
     int getPairsCount(int arr[], int n, int k) {
         // code here
-        //const
 
-        //Approach :01
+        //Approach: 02
 
-        int limit=1e6;
-        
-        int hash_sz=1e6+1005;
-
-        vector<int> hash(hash_sz);
-        int ct=0,temp;
+        unordered_map <int,int>um;
+        int ct=0;
 
         for(int i=0;i<n;i++){
 
-            if(arr[i]==k){
-                //ct++;
-            }
-            else{
 
-            if((k-arr[i])>=0 && (k-arr[i]<limit)){
-               // cout<<"hash["<<k-arr[i]<<"]: "<<hash[k-arr[i]]<<endl;
-                // if((hash[k-arr[i]])>0){
-                    temp=(k-arr[i]);
-                    ct+=hash[temp];
-                    // cout<<"ct: "<<ct<<endl;
-                // }
+            if(um.find(k-arr[i])!=um.end()){
+                ct+=um[k-arr[i]];
             }
-            temp=arr[i];
-            hash[temp]=hash[temp]+1;
 
-            }
+            um[arr[i]]++;
+
         }
 
         return ct;
+
+
     }
 };
 
@@ -69,3 +56,36 @@ int main() {
     return 0;
 }  // } Driver Code Ends
 
+
+
+        //Approach :01
+
+        // int limit=1e6;
+        
+        // int hash_sz=1e6+1005;
+
+        // vector<int> hash(hash_sz);
+        // int ct=0,temp;
+
+        // for(int i=0;i<n;i++){
+
+        //     if(arr[i]==k){
+        //         //ct++;
+        //     }
+        //     else{
+
+        //     if((k-arr[i])>=0 && (k-arr[i]<limit)){
+        //        // cout<<"hash["<<k-arr[i]<<"]: "<<hash[k-arr[i]]<<endl;
+        //         // if((hash[k-arr[i]])>0){
+        //             temp=(k-arr[i]);
+        //             ct+=hash[temp];
+        //             // cout<<"ct: "<<ct<<endl;
+        //         // }
+        //     }
+        //     temp=arr[i];
+        //     hash[temp]=hash[temp]+1;
+
+        //     }
+        // }
+
+        // return ct;

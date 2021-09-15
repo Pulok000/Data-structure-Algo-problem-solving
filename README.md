@@ -12,6 +12,6 @@ There are More than 450 classic problems on different topics from different site
 | GeekforGeek | [poka](https://auth.geeksforgeeks.org/user/poka/profile) | 15 |
 | leetcode | [PULOK_AHMED](https://leetcode.com/PULOK_AHMED/) | 4 |
 |
-| Total |19 |  |
+| Total |20 |  |
 
 Last Updated: 6 sept, 2021
