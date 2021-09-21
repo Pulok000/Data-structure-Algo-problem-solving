@@ -9,9 +9,9 @@ There are More than 450 classic problems on different topics from different site
 
 | OJ | Username | Solve Count |
 | -- | -------- | ----------- |
-| GeekforGeek | [poka](https://auth.geeksforgeeks.org/user/poka/profile) | 17 |
+| GeekforGeek | [poka](https://auth.geeksforgeeks.org/user/poka/profile) | 18 |
 | leetcode | [PULOK_AHMED](https://leetcode.com/PULOK_AHMED/) | 4 |
 |
-| Total |21 |  |
+| Total |22 |  |
 
 Last Updated: 6 sept, 2021
