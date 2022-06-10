@@ -4,12 +4,14 @@
 
 using namespace std;
 
+template <typename T>
+
 class graph {
 
 public:
-    map<int,list<int>> adj;
+    map<T,list<T>> adj;
 
-    void addEdge(int u,int v,bool direction){
+    void addEdge(T u,T v,bool direction){
         //directed --> 1
         //undirected -->0
 
@@ -53,7 +55,7 @@ int main()
 
     cin>>m;
 
-    graph g1;
+    graph <int> g1;
 
     for(int i=0;i<m;i++){
         int u,v;
