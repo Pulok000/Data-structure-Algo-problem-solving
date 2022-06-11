@@ -1,4 +1,5 @@
 //BFS traversal on undirected graph
+//The C++ code for BFS traversal for entire graph (valid for directed as well as undirected graphs) with possible multiple disconnected components is as follows:
 
 #include<bits/stdc++.h>
 
