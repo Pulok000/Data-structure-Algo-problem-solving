@@ -6,7 +6,6 @@ using namespace std;
 
 
 
-
 int main()
 {
 
@@ -46,3 +45,17 @@ int main()
 }
 
 
+/*
+ check with this input i you are in hurry
+5
+7
+0 1
+0 4
+4 1
+4 3
+1 3
+1 2
+3 2
+
+
+*/
